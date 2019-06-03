@@ -1,29 +1,9 @@
-# demos
+# 用 Vue 指令方式实现节流和防抖 Demo
 
-## Project setup
-```
-npm install
-```
+### 调用方法
 
-### Compiles and hot-reloads for development
+```html
+<button v-[debounce|throttle]:[EVENT_NAME].[GAP_TIMES(ms)]="[HANDLER]">
+  节流/防抖按钮
+</button>
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
